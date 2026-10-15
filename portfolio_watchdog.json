@@ -1,0 +1,47 @@
+[
+  {
+    "ticker": "EMAMIPAP.NS",
+    "name": "Emami Paper Mills",
+    "quantity": 250,
+    "entryPrice": 125.56,
+    "currentPrice": 122.19,
+    "targetFairValue": 155.0,
+    "currency": "INR",
+    "invalidationRule": "Exit if Operating Margin drops below 8% or Net Debt/EBITDA > 3.5x",
+    "minOperatingMargin": 0.08,
+    "maxDebtToEquity": 0.8,
+    "status": "Thesis Intact",
+    "statusBadge": "\ud83d\udfe2",
+    "lastAudited": "2026-10-15"
+  },
+  {
+    "ticker": "JPPOWER.NS",
+    "name": "Jaiprakash Power Ventures",
+    "quantity": 100,
+    "entryPrice": 18.07,
+    "currentPrice": 15.43,
+    "targetFairValue": 22.0,
+    "currency": "INR",
+    "invalidationRule": "Exit if Plant Load Factor (PLF) falls below 65% or Power PPA tariffs renegotiated lower",
+    "minOperatingMargin": 0.15,
+    "maxDebtToEquity": 0.6,
+    "status": "Caution / Watch",
+    "statusBadge": "\ud83d\udfe1",
+    "lastAudited": "2026-10-15"
+  },
+  {
+    "ticker": "PMCFIN.BO",
+    "name": "PMC Fincorp",
+    "quantity": 583,
+    "entryPrice": 3.37,
+    "currentPrice": 1.73,
+    "targetFairValue": 3.5,
+    "currency": "INR",
+    "invalidationRule": "Exit if Gross NPA rises above 5% or Book Value per share deteriorates further",
+    "minOperatingMargin": 0.1,
+    "maxDebtToEquity": 1.5,
+    "status": "Thesis Breached",
+    "statusBadge": "\ud83d\udd34",
+    "lastAudited": "2026-10-15"
+  }
+]
